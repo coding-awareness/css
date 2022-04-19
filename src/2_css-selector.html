@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Selector</title>
+        <style>
+            * {
+                color: grey; /* Universal selector */
+            }
+            input[type="text"] {
+                border: 1px solid green;
+            }
+            .decendant > p {
+                background-color: yellowgreen;
+            }
+            .sibling + p {
+                color:aqua;
+            }
+            a:hover {
+                color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <h3>CSS Selector | <a href="../index.html">Home</a></h3>
+        <h4>Basic selectors</h4>
+        Name: <input type="text" > <input type="button" value="Submit">
+        <h4>Combinator selectors</h4>
+        <p>decendant</p>
+        <div class="decendant">
+            <p>paragraph</p>
+            <div>
+                <p>another para inside div</p>
+            </div>
+        </div>
+        <p>sibling</p>
+        <div class="sibling"></div>
+        <p>Sibling paragraph</p>
+        <p>another Sibling paragraph</p>
+        <h4>Psudo class</h4>
+        <a href="1_css-intro.html">CSS Intro</a>
+    </body>
+</html>
