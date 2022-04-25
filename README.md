@@ -1,6 +1,6 @@
-# Quite Easy Tech - CSS Tutorials
+# Coding Awareness - CSS Tutorials
 # CSS
 CSS basic tutorials
 
 # Demo
-Code examples with topic wise: https://quiteeasy-tech.github.io/css/ 
+Code examples with topic wise: https://coding-awareness.github.io/css/ 
